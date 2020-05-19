@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Artifika&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Instagram Photo Feed (with Bootstrap)</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand navbar-light bg-light fixed-top">
+        <i class="fab fa-instagram fa-2x"></i>
+        <a class="navbar-brand mx-2" href="#">
+            <span>Instagram</span>
+        </a>
+        
+        <ul class="navbar-nav ml-auto">
+
+            <button id="button-green" type="button" class="btn btn-success my-2 my-sm-0 d-flex justify-content-end"
+                data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Create a new post</button>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-cog"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Log out</a>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center py-3" id="view">
+
+                <a class="btn btn-default btn-sm" href="index.html"><i class="fas fa-th"></i></a>
+                <a class="btn btn-secondary btn-sm" href="feed.html"><i class="fas fa-square"></i></a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+
+        <div class="card-header bg-transparent d-flex justify-content-between">
+            My First Photo
+            <span>12/14</span>
+        </div>
+
+        <div class="card-body">
+            <img src="road.jpeg" alt="foto">
+        </div>
+
+        <div class="card-footer bg-transparent">
+            <div class="likes">
+                23 likes
+            </div>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est eum neque dolorum veniam necessitatibus
+                suscipit tempora fugiat quo reprehenderit, at beatae voluptas deserunt ducimus sit quis, nobis corrupti,
+                quidem quam?
+            </div>
+            <div class="comments font-weight-bold">
+                #4GeeksAcademy
+            </div>
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <div class="card-header bg-transparent d-flex justify-content-between">
+            My First Photo
+            <span>12/14</span>
+        </div>
+
+        <div class="card-body">
+            <img src="beach.jpeg" alt="foto">
+        </div>
+
+        <div class="card-footer bg-transparent">
+            <div class="likes">
+                23 likes
+            </div>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est eum neque dolorum veniam necessitatibus
+                suscipit tempora fugiat quo reprehenderit, at beatae voluptas deserunt ducimus sit quis, nobis corrupti,
+                quidem quam?
+            </div>
+            <div class="comments font-weight-bold">
+                #4GeeksAcademy
+            </div>
+        </div>
+    </div>
+    <div class="card">
+
+        <div class="card-header bg-transparent d-flex justify-content-between">
+            My First Photo
+            <span>12/14</span>
+        </div>
+
+        <div class="card-body">
+            <img src="pc.jpeg" alt="foto">
+        </div>
+
+        <div class="card-footer bg-transparent">
+            <div class="likes">
+                23 likes
+            </div>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est eum neque dolorum veniam necessitatibus
+                suscipit tempora fugiat quo reprehenderit, at beatae voluptas deserunt ducimus sit quis, nobis corrupti,
+                quidem quam?
+            </div>
+            <div class="comments font-weight-bold">
+                #4GeeksAcademy
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+
+        <div class="card-header bg-transparent d-flex justify-content-between">
+            My First Photo
+            <span>12/14</span>
+        </div>
+
+        <div class="card-body">
+            <img src="city.jpeg" alt="foto">
+        </div>
+
+        <div class="card-footer bg-transparent">
+            <div class="likes">
+                23 likes
+            </div>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est eum neque dolorum veniam necessitatibus
+                suscipit tempora fugiat quo reprehenderit, at beatae voluptas deserunt ducimus sit quis, nobis corrupti,
+                quidem quam?
+            </div>
+            <div class="comments font-weight-bold">
+                #4GeeksAcademy
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+
+        <div class="card-header bg-transparent d-flex justify-content-between">
+            My First Photo
+            <span>12/14</span>
+        </div>
+
+        <div class="card-body">
+            <img src="ligth.jpeg" alt="foto">
+        </div>
+
+        <div class="card-footer bg-transparent">
+            <div class="likes">
+                23 likes
+            </div>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est eum neque dolorum veniam necessitatibus
+                suscipit tempora fugiat quo reprehenderit, at beatae voluptas deserunt ducimus sit quis, nobis corrupti,
+                quidem quam?
+            </div>
+            <div class="comments font-weight-bold">
+                #4GeeksAcademy
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+
+        <div class="card-header bg-transparent d-flex justify-content-between">
+            My First Photo
+            <span>12/14</span>
+        </div>
+
+        <div class="card-body">
+            <img src="umbrellas.jpeg" alt="foto">
+        </div>
+
+        <div class="card-footer bg-transparent">
+            <div class="likes">
+                23 likes
+            </div>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est eum neque dolorum veniam necessitatibus
+                suscipit tempora fugiat quo reprehenderit, at beatae voluptas deserunt ducimus sit quis, nobis corrupti,
+                quidem quam?
+            </div>
+            <div class="comments font-weight-bold">
+                #4GeeksAcademy
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+
+        <div class="card-header bg-transparent d-flex justify-content-between">
+            My First Photo
+            <span>12/14</span>
+        </div>
+
+        <div class="card-body">
+            <img src="colors.jpeg" alt="foto">
+        </div>
+
+        <div class="card-footer bg-transparent">
+            <div class="likes">
+                23 likes
+            </div>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est eum neque dolorum veniam necessitatibus
+                suscipit tempora fugiat quo reprehenderit, at beatae voluptas deserunt ducimus sit quis, nobis corrupti,
+                quidem quam?
+            </div>
+            <div class="comments font-weight-bold">
+                #4GeeksAcademy
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+
+        <div class="card-header bg-transparent d-flex justify-content-between">
+            My First Photo
+            <span>12/14</span>
+        </div>
+
+        <div class="card-body">
+            <img src="photo.jpeg" alt="foto">
+        </div>
+
+        <div class="card-footer bg-transparent">
+            <div class="likes">
+                23 likes
+            </div>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est eum neque dolorum veniam necessitatibus
+                suscipit tempora fugiat quo reprehenderit, at beatae voluptas deserunt ducimus sit quis, nobis corrupti,
+                quidem quam?
+            </div>
+            <div class="comments font-weight-bold">
+                #4GeeksAcademy
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+
+        <div class="card-header bg-transparent d-flex justify-content-between">
+            My First Photo
+            <span>12/14</span>
+        </div>
+
+        <div class="card-body">
+            <img src="business.jpeg" alt="foto">
+        </div>
+
+        <div class="card-footer bg-transparent">
+            <div class="likes">
+                23 likes
+            </div>
+            <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est eum neque dolorum veniam necessitatibus
+                suscipit tempora fugiat quo reprehenderit, at beatae voluptas deserunt ducimus sit quis, nobis corrupti,
+                quidem quam?
+            </div>
+            <div class="comments font-weight-bold">
+                #4GeeksAcademy
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
